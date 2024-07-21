@@ -1,0 +1,17 @@
+SELECT*
+FROM superstore;
+SELECT price, item_name
+FROM superstore;
+
+SELECT SUM (price)
+FROM superstore;
+
+SELECT MAX (price)
+FROM superstore;
+
+SELECT COUNT("Kitchen Supplies")
+FROM superstore;
+
+SELECT item_name
+FROM superstore
+WHERE average_rating;           
